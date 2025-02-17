@@ -17,6 +17,10 @@ android {
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
 
+    buildFeatures {
+        viewBinding = true
+    }
+
     buildTypes {
         release {
             isMinifyEnabled = false
@@ -34,6 +38,9 @@ android {
         jvmTarget = "11"
     }
     buildToolsVersion = "35.0.0"
+
+
+
 }
 
 dependencies {
@@ -46,9 +53,14 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
+    implementation("androidx.appcompat:appcompat:1.6.1")
+    implementation("com.google.android.material:material:1.9.0")
+    implementation("androidx.constraintlayout:constraintlayout:2.1.4")
 }
 
 dependencies {
+    implementation("com.google.firebase:firebase-firestore-ktx:24.8.1")
     implementation("com.google.firebase:firebase-auth-ktx:22.1.0")
     implementation("com.google.android.material:material:1.9.0")
+    implementation("com.android.volley:volley:1.2.1")
 }

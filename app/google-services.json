@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "842810956645",
+    "project_id": "wcare-women",
+    "storage_bucket": "wcare-women.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:842810956645:android:425d7a044ab22f28649f8c",
+        "android_client_info": {
+          "package_name": "com.example.wcare"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCNAmUQB85lycLU0R4WBkEptVKWFzHGRX4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

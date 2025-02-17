@@ -33,6 +33,7 @@ android {
     kotlinOptions {
         jvmTarget = "11"
     }
+    buildToolsVersion = "35.0.0"
 }
 
 dependencies {
@@ -45,4 +46,9 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
+}
+
+dependencies {
+    implementation("com.google.firebase:firebase-auth-ktx:22.1.0")
+    implementation("com.google.android.material:material:1.9.0")
 }
